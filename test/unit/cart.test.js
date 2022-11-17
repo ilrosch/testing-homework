@@ -1,5 +1,5 @@
 import {it, describe, expect} from '@jest/globals'
-import {render, screen } from "@testing-library/react";
+import {fireEvent, render, screen} from "@testing-library/react";
 import React from 'react';
 import { Provider } from "react-redux";
 import { BrowserRouter } from "react-router-dom";
@@ -13,6 +13,8 @@ import {Contacts} from "../../src/client/pages/Contacts";
 import {commerce} from "faker";
 import {MemoryRouter} from "react-router";
 import {Cart} from "../../src/client/pages/Cart";
+import {ExampleApi} from "../../src/client/api";
+import {initStore} from "../../src/client/store";
 
 const basename = '/'
 
@@ -99,6 +101,30 @@ describe('Тестируем корзину', () => {
         expect(screen.queryByText('$80')).toBeInTheDocument()
 
     });
+
+    it('В корзине должна быть кнопка "очистить корзину", по нажатию на которую все товары должны удаляться:', () => {
+        const cart = {
+            getState: () => ({
+                1: { id: 1, name: "order_1", price: 100, count: 3 },
+                2: { id: 2, name: "order_2", price: 20, count: 4 },
+            })
+        }
+        const api = new ExampleApi('/');
+
+        const store = initStore(api, cart);
+
+        render(
+            <MemoryRouter initialEntries={['/cart']}>
+                <Provider store={store}>
+                    <Application />
+                </Provider>
+            </MemoryRouter>
+        )
+
+        fireEvent.click(screen.getByRole('button', {name: 'Clear shopping cart'}));
+        expect(screen.queryByRole("table")).not.toBeInTheDocument();
+
+    })
 
     it('Если корзина пустая, должна отображаться ссылка на каталог товаров:', () => {
         const initState = {

@@ -1,5 +1,5 @@
 import {it, describe, expect} from '@jest/globals'
-import {render, screen } from "@testing-library/react";
+import {fireEvent, render, screen} from "@testing-library/react";
 import React from 'react';
 import { Provider } from "react-redux";
 import { BrowserRouter } from "react-router-dom";
@@ -12,6 +12,8 @@ import {Delivery} from "../../src/client/pages/Delivery";
 import {Contacts} from "../../src/client/pages/Contacts";
 import {commerce} from "faker";
 import {MemoryRouter} from "react-router";
+import {ExampleApi} from "../../src/client/api";
+import {initStore} from "../../src/client/store";
 
 const basename = '/'
 
@@ -152,13 +154,5 @@ describe('Тестируем каталог', () => {
         );
 
         expect(screen.queryByText('Item in cart')).toBeInTheDocument()
-    });
-
-    it('Если товар уже добавлен в корзину, повторное нажатие кнопки "добавить в корзину" должно увеличивать его количество: ', () => {
-
-    });
-
-    it('Содержимое корзины должно сохраняться между перезагрузками страницы: ', () => {
-
     });
 });

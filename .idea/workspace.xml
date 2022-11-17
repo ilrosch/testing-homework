@@ -5,40 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="39010bec-a02c-4fd1-a65b-6979b06d4fd7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.babelrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jest.config.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/unit/cart.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/unit/catalog.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/unit/pages.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/client/Application.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/client/api.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/client/components/CartBadge.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/client/components/Form.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/client/components/Image.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/client/components/ProductDetails.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/client/components/ProductItem.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/client/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/client/index.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/client/pages/Cart.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/client/pages/Catalog.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/client/pages/Contacts.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/client/pages/Delivery.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/client/pages/Home.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/client/pages/Product.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/client/store.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/types.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/server/data.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/server/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/server/routes.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/static/index.html" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.hermione.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/hermione/adaptive.hermione.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/hermione/example.hermione.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/unit/example.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/unit/cart.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/unit/cart.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/unit/catalog.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/unit/catalog.test.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,105 +31,96 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "E:/Документы/Илья/Програмирование/yandex-academia/testing-homework/test/unit",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs.jest.jest_package": "E:/Документы/Илья/Програмирование/yandex-academia/testing-homework/node_modules/jest",
-    "nodejs_package_manager_path": "npm",
-    "ts.external.directory.path": "E:\\Документы\\Илья\\Програмирование\\yandex-academia\\testing-homework\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/Документы/Илья/Програмирование/yandex-academia/testing-homework/test/unit&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs.jest.jest_package&quot;: &quot;E:/Документы/Илья/Програмирование/yandex-academia/testing-homework/node_modules/jest&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;E:\\Документы\\Илья\\Програмирование\\yandex-academia\\testing-homework\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\Документы\Илья\Програмирование\yandex-academia\testing-homework\test\unit" />
     </key>
   </component>
-  <component name="RunManager" selected="Jest.Тестируем корзину.Если корзина пустая, должна отображаться ссылка на каталог товаров:">
-    <configuration name="Тестируем корзину.В шапке рядом со ссылкой на корзину должно отображаться количество не повторяющихся товаров в ней: " type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="npm.herm:update">
+    <configuration name="Общие требования к адаптиву:.Вёрстка должна адаптироваться под ширину экрана: 1100px" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/jest" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/test/unit/cart.test.js" />
+      <test-file value="$PROJECT_DIR$/test/hermione/example.hermione.js" />
       <test-names>
-        <test-name value="Тестируем корзину" />
-        <test-name value="В шапке рядом со ссылкой на корзину должно отображаться количество не повторяющихся товаров в ней: " />
+        <test-name value="Общие требования к адаптиву:" />
+        <test-name value="Вёрстка должна адаптироваться под ширину экрана: 1100px" />
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="Тестируем корзину.В корзине должна отображаться таблица с добавленными в нее товарами: " type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="Общие требования к адаптиву:.Вёрстка должна адаптироваться под ширину экрана: 1920px" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/jest" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/test/unit/cart.test.js" />
+      <test-file value="$PROJECT_DIR$/test/hermione/example.hermione.js" />
       <test-names>
-        <test-name value="Тестируем корзину" />
-        <test-name value="В корзине должна отображаться таблица с добавленными в нее товарами: " />
+        <test-name value="Общие требования к адаптиву:" />
+        <test-name value="Вёрстка должна адаптироваться под ширину экрана: 1920px" />
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="Тестируем каталог.Если товар уже добавлен в корзину, в каталоге и на странице товара должно отображаться сообщение об этом: " type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="github" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/jest" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/test/unit/catalog.test.js" />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/test/hermione/example.hermione.js" />
       <test-names>
-        <test-name value="Тестируем каталог" />
-        <test-name value="Если товар уже добавлен в корзину, в каталоге и на странице товара должно отображаться сообщение об этом: " />
+        <test-name value="github" />
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="Тестируем корзину.для каждого товара должны отображаться название, цена, количество , стоимость, а также должна отображаться общая сумма заказа: " type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="herm" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="herm" />
+      </scripts>
       <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
-      <working-dir value="$PROJECT_DIR$" />
       <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/test/unit/cart.test.js" />
-      <test-names>
-        <test-name value="Тестируем корзину" />
-        <test-name value="для каждого товара должны отображаться название, цена, количество , стоимость, а также должна отображаться общая сумма заказа: " />
-      </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="Тестируем корзину.Если корзина пустая, должна отображаться ссылка на каталог товаров:" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="herm:update" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="herm:update" />
+      </scripts>
       <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
-      <working-dir value="$PROJECT_DIR$" />
       <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/test/unit/cart.test.js" />
-      <test-names>
-        <test-name value="Тестируем корзину" />
-        <test-name value="Если корзина пустая, должна отображаться ссылка на каталог товаров:" />
-      </test-names>
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Jest.Тестируем корзину.Если корзина пустая, должна отображаться ссылка на каталог товаров:" />
-        <item itemvalue="Jest.Тестируем корзину.для каждого товара должны отображаться название, цена, количество , стоимость, а также должна отображаться общая сумма заказа: " />
-        <item itemvalue="Jest.Тестируем корзину.В корзине должна отображаться таблица с добавленными в нее товарами: " />
-        <item itemvalue="Jest.Тестируем корзину.В шапке рядом со ссылкой на корзину должно отображаться количество не повторяющихся товаров в ней: " />
-        <item itemvalue="Jest.Тестируем каталог.Если товар уже добавлен в корзину, в каталоге и на странице товара должно отображаться сообщение об этом: " />
+        <item itemvalue="npm.herm:update" />
+        <item itemvalue="npm.herm" />
+        <item itemvalue="Jest.Общие требования к адаптиву:.Вёрстка должна адаптироваться под ширину экрана: 1920px" />
+        <item itemvalue="Jest.Общие требования к адаптиву:.Вёрстка должна адаптироваться под ширину экрана: 1100px" />
+        <item itemvalue="Jest.github" />
       </list>
     </recent_temporary>
   </component>
@@ -171,7 +136,9 @@
       <workItem from="1668276816111" duration="1821000" />
       <workItem from="1668357186335" duration="4647000" />
       <workItem from="1668433809844" duration="3915000" />
-      <workItem from="1668609966354" duration="10687000" />
+      <workItem from="1668609966354" duration="11287000" />
+      <workItem from="1668692730712" duration="4683000" />
+      <workItem from="1668707534545" duration="2370000" />
     </task>
     <servers />
   </component>
@@ -194,8 +161,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/test/unit/catalog.test.js</url>
-          <line>76</line>
-          <properties lambdaOrdinal="-1" />
+          <line>78</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
