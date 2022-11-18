@@ -5,14 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="39010bec-a02c-4fd1-a65b-6979b06d4fd7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.hermione.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/hermione/adaptive.hermione.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/hermione/cart.hermione.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/hermione/static.hermione.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.hermione.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/.hermione.conf.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/hermione/example.hermione.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/unit/cart.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/unit/cart.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/unit/catalog.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/unit/catalog.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/hermione/adaptive.hermione.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/hermione/adaptive.hermione.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,42 +30,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/Документы/Илья/Програмирование/yandex-academia/testing-homework/test/unit&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs.jest.jest_package&quot;: &quot;E:/Документы/Илья/Програмирование/yandex-academia/testing-homework/node_modules/jest&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;E:\\Документы\\Илья\\Програмирование\\yandex-academia\\testing-homework\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "E:/Документы/Илья/Програмирование/yandex-academia/testing-homework/test/unit",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs.jest.jest_package": "E:/Документы/Илья/Програмирование/yandex-academia/testing-homework/node_modules/jest",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "E:\\Документы\\Илья\\Програмирование\\yandex-academia\\testing-homework\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\Документы\Илья\Програмирование\yandex-academia\testing-homework\test\unit" />
     </key>
   </component>
   <component name="RunManager" selected="npm.herm:update">
-    <configuration name="Общие требования к адаптиву:.Вёрстка должна адаптироваться под ширину экрана: 1100px" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/test/hermione/example.hermione.js" />
-      <test-names>
-        <test-name value="Общие требования к адаптиву:" />
-        <test-name value="Вёрстка должна адаптироваться под ширину экрана: 1100px" />
-      </test-names>
-      <method v="2" />
-    </configuration>
     <configuration name="Общие требования к адаптиву:.Вёрстка должна адаптироваться под ширину экрана: 1920px" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -81,17 +66,14 @@
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="github" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="he" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="he" />
+      </scripts>
       <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
-      <working-dir value="$PROJECT_DIR$" />
       <envs />
-      <scope-kind value="SUITE" />
-      <test-file value="$PROJECT_DIR$/test/hermione/example.hermione.js" />
-      <test-names>
-        <test-name value="github" />
-      </test-names>
       <method v="2" />
     </configuration>
     <configuration name="herm" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
@@ -114,13 +96,23 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="test" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="test" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="npm.herm:update" />
+        <item itemvalue="npm.test" />
         <item itemvalue="npm.herm" />
+        <item itemvalue="npm.he" />
         <item itemvalue="Jest.Общие требования к адаптиву:.Вёрстка должна адаптироваться под ширину экрана: 1920px" />
-        <item itemvalue="Jest.Общие требования к адаптиву:.Вёрстка должна адаптироваться под ширину экрана: 1100px" />
-        <item itemvalue="Jest.github" />
       </list>
     </recent_temporary>
   </component>
@@ -138,7 +130,8 @@
       <workItem from="1668433809844" duration="3915000" />
       <workItem from="1668609966354" duration="11287000" />
       <workItem from="1668692730712" duration="4683000" />
-      <workItem from="1668707534545" duration="2370000" />
+      <workItem from="1668707534545" duration="2795000" />
+      <workItem from="1668781438915" duration="10113000" />
     </task>
     <servers />
   </component>
